@@ -15,16 +15,15 @@ function userTime(){
     return now.getHours()
 }
 console.log(userTime())                             
-                                                              
+                                                                                                  
+
+// helper functions
+// check time of day
 function getMealTime(){
     const tod = userTime()
     return tod > 20 ? 'latenight snack' : tod > 16 ? 'dinner' : tod > 11 ? 'lunch' : 'breakfast'
 }
-console.log(getMealTime())                                      
-
-// helper functions
-// check time of day
-
+console.log(getMealTime())  
 
 // build ads
 // Build Ad 1:                                                           
